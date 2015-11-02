@@ -1,0 +1,21 @@
+{
+    "name": "omni/yii2-tinymce",
+    "description": "TinyMce inclode custom image uploader & drag&drop image to tinymce editor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gantaphon",
+            "email": "gantaphon.m@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "omni\\tinymce\\": ""
+        }
+    }
+}
